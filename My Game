@@ -1,3 +1,12 @@
+//I designed a game where the program will read a file which contains the map of 
+// my game. the map contains characters from the keyboard which represents
+/*
+walls, enemies, guns, obstacles. The purpose of the game is to pass through
+certain obstables and collect 5 coins which are hidden in behind the walls
+that will be broken with the help of gun (i used a * sign to represents bullets)
+once the coins are collected a gate opens and that indicates the end of the game.
+I still have to implement the the opening of the game part. The rest is complete
+*/
 #include <iostream>
 #include <ncurses.h>
 #include <fstream>
@@ -571,3 +580,44 @@ int main(int argc, char **argv) {
     firstMap.printlocalsPlayer();
     return 0;
 }
+/*
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx                                       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx                                       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   G   xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxo                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx       xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx       xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxo                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx       xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx                               xxxxxxxxxxxxxxxxxxxxxxxxxxxx                @@@@@@xxxxxxxxxxxx    xxxxxxxxxxxxxxxxxxxxxx       xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxxxxxxxxxxxx                      xxxxxxxxxxxx    xxxxxxxxxxxxxxxxxxxxxx       xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxxxxxxxxxxxx                      xxxxxxxxxxxx    xxxxxxxxxxxxxxxxxxxxxx       xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxo                                                                   xxxxxxxxxxxx    xxxxxxxxxxxxxxxxxxxxxx       xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                                    xxxxxxxxxxxx    xxxxxxxxxxxxxxxxxxxxxx       xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxo                                                                   xxxxxxxxxxxx  & xxxxxxxxx                    xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxxxxxxxxxxxx                      xxxxxxxxxxxxxxxxxxxxxxxxx                    xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx                               xxxxxxxxxxxxxxxxxxxxxxxxxxxx                      xxxxxxxxxxxxxxxxxxxxxxxxx                    xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx      P                     P  xxxxxxxxxx         xxxxxxxxx                      xxxxxxxxxxxxxxxxxxxxxxxxx                    xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx                              Txxxxxxxxxx    $    xxxxxxxxx                      xxxxxxxxxxxxxxxxxxxxxxxxx                    xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx                         P     xxxxxxxxxx         xxxxxxxxx                      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx      xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx                               xxxxxxxxxxxxxxxxxxxxxxxxxxxx                      p                             xxxxxxxxx     xxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx             P                 xxxxxxxxxxxxxxxxxxxxxxxxxxxx                      p                             xxxxxxxx     xxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx P                                                                               p                             xxxxxxx     xxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx          xxxxxxxxxnnnnnnnnnnnno                                                 p                             xxxxxxx     xxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxx          xxxxxxxxxnnnnnnnnnnn                                                  xxxxxxxxxxxxxxxxxxxxx         xxxxxxx     xxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxx          xxxxxxxxxnnnnnnnnnno                                                 xxxxxxxxxxxxxxxxxxxxx         xxxxxxx     xxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxx          xxxxxxxxxnnnnnnnnn                                                  xxxxxxxxxxxxxxxxxxxxx         xxxxxxx     xxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxx          xxxxxxxxxnnnnnnnno                                                 xxxxxxxxxxxxxxxxxxxxx         xxxxxxx     xxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxx          xxxxxxxxxnnnnnnn                                                  xxxxxxxxxxxxxxxxxxxxxxxxxxx               xxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxx          xxxxxxxxxnnnnnno                                                 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx            xxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxx          xxxxxxxxxnnnnn              %                                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx            xxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxx          xxxxxxxxxnnnno                                                 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx            xxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxx          xxxxxxxxxnnn                                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx            xxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxx          xxxxxxxxxnno                                                 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx            xxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxx          xxxxxxxxxn                                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxx          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                 ____   #     ____      ----------                 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx               /    \       /    \    /          \       !        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+*/
