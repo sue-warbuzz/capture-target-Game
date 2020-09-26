@@ -1,3 +1,11 @@
+// use the following command line in linux. But should have ncurses to run it
+// g++ main.cpp -lncurses
+// ./a.out map (I have printed the map at the bottom of the code)
+// a-> left
+// s->down
+// d->right
+// w->up
+// q-> quit the game.
 //I designed a game where the program will read a file which contains the map of 
 // my game. the map contains characters from the keyboard which represents
 /*
